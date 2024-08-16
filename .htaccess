@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^favicon\.ico$ favicon.ico [L]
+RewriteRule ^(.*)$ service.php [QSA,L]
